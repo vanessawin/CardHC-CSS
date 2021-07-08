@@ -13,34 +13,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
 
     <style>
+        .card-container {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
         .card {
+            margin: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-family: 'Roboto', sans-serif; /*font importada do google fonts*/
+            flex-basis: 20%;
+            font-family: 'Roboto', sans-serif;
+            /*font importada do google fonts*/
         }
+
         .description {
             text-align: center;
             margin: 5px 2px;
             font-size: 10px;
         }
+
         .price {
-            font-weight: 800;
+            font-size: 12px;
+            font-weight: 600;
         }
+
         .buy-button {
             border-radius: 10px;
-            background-color: #fff;
-            border: 1px solid #000;
-            padding: 5px;
-            margin: 5px 0;
+
         }
+
         .buy-button:hover {
             cursor: pointer;
             background-color: #000;
             color: #fff;
 
         }
-        
+
         div {
             border: 1px solid black;
             width: 200px;
@@ -49,19 +61,94 @@
         img {
             width: 100px;
         }
-        
     </style>
 
 </head>
 
 <body>
-    <div class="card">
-        <h3 class="product-name">Produto</h3>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
-            alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
-        <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint rem.</p>
-        <span class="price">Preço: R$XXXX,XX</span>
-        <button class="buy-button">Adicionar ao carrinho</button>
+    <div class="card-container">
+        
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+            <h3 class="product-name">Produto</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+                alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+            <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+                rem.
+            </p>
+            <span class="price">Preço: R$XXXX,XX</span>
+            <button class="buy-button">Adicionar ao carrinho</button>
+        </div>
     </div>
 </body>
 
