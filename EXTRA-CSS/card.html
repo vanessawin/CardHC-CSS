@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Roboto', sans-serif; /*font importada do google fonts*/
+        }
+        .description {
+            text-align: center;
+            margin: 5px 2px;
+            font-size: 10px;
+        }
+        .price {
+            font-weight: 800;
+        }
+        .buy-button {
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid #000;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        .buy-button:hover {
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+
+        }
+        
+        div {
+            border: 1px solid black;
+            width: 200px;
+        }
+
+        img {
+            width: 100px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <h3 class="product-name">Produto</h3>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71bTVKmzi6L._AC_SX466_.jpg"
+            alt="imagem de uma caixa de papelão" title="imagem de uma caixa de papelão" />
+        <p lang="en" class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint rem.</p>
+        <span class="price">Preço: R$XXXX,XX</span>
+        <button class="buy-button">Adicionar ao carrinho</button>
+    </div>
+</body>
+
+</html>
