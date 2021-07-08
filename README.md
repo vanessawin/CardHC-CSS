@@ -1,2 +1,2 @@
 # CardHC-CSS
-Praticando Aula do Hiring Coders EXTRA CSS
+Praticando Aula do Hiring Coders EXTRA CSS Fazendo card de e-comerce
